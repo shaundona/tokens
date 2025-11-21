@@ -1,0 +1,22 @@
+{
+  "$schema": "https://design-tokens.w3.org/schemas/tokens.json",
+  "$description": "Design tokens exported from Figma",
+  "$extensions": {
+    "com.figma": {
+      "exportedAt": "2025-11-21T17:38:01.540Z",
+      "version": "1.0.0"
+    }
+  },
+  "other": {
+    "Mode 1": {
+      "true": {
+        "$value": true,
+        "$type": "boolean"
+      },
+      "false": {
+        "$value": false,
+        "$type": "boolean"
+      }
+    }
+  }
+}
