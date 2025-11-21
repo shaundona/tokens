@@ -3,7 +3,7 @@
   "$description": "Design tokens exported from Figma",
   "$extensions": {
     "com.figma": {
-      "exportedAt": "2025-11-21T17:34:43.906Z",
+      "exportedAt": "2025-11-21T17:40:46.066Z",
       "version": "1.0.0"
     }
   },
@@ -41,6 +41,10 @@
     "Mode 1": {
       "text": {
         "$value": "texting",
+        "$type": "string"
+      },
+      "submit-btn": {
+        "$value": "submit",
         "$type": "string"
       }
     }
