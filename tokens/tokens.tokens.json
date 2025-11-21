@@ -1,0 +1,18 @@
+{
+  "$schema": "https://design-tokens.w3.org/schemas/tokens.json",
+  "$description": "Design tokens exported from Figma",
+  "$extensions": {
+    "com.figma": {
+      "exportedAt": "2025-11-21T17:38:00.525Z",
+      "version": "1.0.0"
+    }
+  },
+  "tokens": {
+    "Mode 1": {
+      "text": {
+        "$value": "texting",
+        "$type": "string"
+      }
+    }
+  }
+}
