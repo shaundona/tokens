@@ -1,0 +1,68 @@
+{
+  "$schema": "https://design-tokens.w3.org/schemas/tokens.json",
+  "$description": "Design tokens exported from Figma",
+  "$extensions": {
+    "com.figma": {
+      "exportedAt": "2025-11-21T17:12:00.482Z",
+      "version": "1.0.0"
+    }
+  },
+  "Collection 1": {
+    "Mode 1": {
+      "bye": {
+        "$value": "#ffffff",
+        "$type": "color"
+      },
+      "hi-var": {
+        "$value": "#460eed",
+        "$type": "color"
+      },
+      "sub-group": {
+        "round": {
+          "$value": 16,
+          "$type": "dimension"
+        },
+        "true": {
+          "$value": true,
+          "$type": "boolean"
+        },
+        "grey": {
+          "$value": "#808080",
+          "$type": "color"
+        },
+        "string": {
+          "$value": "String value",
+          "$type": "string"
+        }
+      }
+    }
+  },
+  "tokens": {
+    "Mode 1": {
+      "text": {
+        "$value": "texting",
+        "$type": "string"
+      }
+    }
+  },
+  "other": {
+    "Mode 1": {
+      "true": {
+        "$value": true,
+        "$type": "boolean"
+      },
+      "false": {
+        "$value": false,
+        "$type": "boolean"
+      }
+    }
+  },
+  "Collection 2": {
+    "Mode 1": {
+      "alias-colour": {
+        "$value": "{hi-var}",
+        "$type": "color"
+      }
+    }
+  }
+}
