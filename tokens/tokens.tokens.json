@@ -3,15 +3,41 @@
   "$description": "Design tokens exported from Figma",
   "$extensions": {
     "com.figma": {
-      "exportedAt": "2025-11-21T17:38:00.525Z",
+      "exportedAt": "2025-11-25T17:08:35.824Z",
       "version": "1.0.0"
     }
   },
   "tokens": {
     "Mode 1": {
-      "text": {
-        "$value": "texting",
-        "$type": "string"
+      "actions": {
+        "primary-filled": {
+          "actions-primary-filled-text": {
+            "$value": "texting",
+            "$type": "string"
+          },
+          "actions-primary-filled-submit-btn": {
+            "$value": "submit",
+            "$type": "string"
+          },
+          "actions-primary-filled-fill": {
+            "$value": "{VariableID:16:2}",
+            "$type": "color"
+          }
+        },
+        "secondary-outline": {
+          "actions-secondary-outline-text": {
+            "$value": "texting",
+            "$type": "string"
+          },
+          "actions-secondary-outline-submit-btn": {
+            "$value": "submit",
+            "$type": "string"
+          },
+          "actions-secondary-outline-fill": {
+            "$value": "{VariableID:16:2}",
+            "$type": "color"
+          }
+        }
       }
     }
   }
