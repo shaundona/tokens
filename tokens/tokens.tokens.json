@@ -3,7 +3,7 @@
   "$description": "Design tokens exported from Figma",
   "$extensions": {
     "com.figma": {
-      "exportedAt": "2025-11-25T17:12:17.550Z",
+      "exportedAt": "2025-11-25T20:35:44.629Z",
       "version": "1.0.0"
     }
   },
@@ -20,7 +20,7 @@
             "$type": "string"
           },
           "actions-primary-filled-fill": {
-            "$value": "{VariableID:16:2}",
+            "$value": "#460eed",
             "$type": "color"
           }
         },
@@ -34,7 +34,7 @@
             "$type": "string"
           },
           "actions-secondary-outline-fill": {
-            "$value": "{VariableID:16:2}",
+            "$value": "#460eed",
             "$type": "color"
           }
         }
