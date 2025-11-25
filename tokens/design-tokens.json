@@ -3,7 +3,7 @@
   "$description": "Design tokens exported from Figma",
   "$extensions": {
     "com.figma": {
-      "exportedAt": "2025-11-25T17:09:52.927Z",
+      "exportedAt": "2025-11-25T21:54:20.091Z",
       "version": "1.0.0"
     }
   },
@@ -64,6 +64,20 @@
             "$type": "string"
           },
           "actions-secondary-outline-fill": {
+            "$value": "{hi-var}",
+            "$type": "color"
+          }
+        },
+        "secondary-outline-2": {
+          "actions-secondary-outline-2-text": {
+            "$value": "texting",
+            "$type": "string"
+          },
+          "actions-secondary-outline-2-submit-btn": {
+            "$value": "submit",
+            "$type": "string"
+          },
+          "actions-secondary-outline-2-fill": {
             "$value": "{hi-var}",
             "$type": "color"
           }
