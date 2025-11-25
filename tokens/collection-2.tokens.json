@@ -3,14 +3,14 @@
   "$description": "Design tokens exported from Figma",
   "$extensions": {
     "com.figma": {
-      "exportedAt": "2025-11-25T17:11:05.125Z",
+      "exportedAt": "2025-11-25T20:35:46.780Z",
       "version": "1.0.0"
     }
   },
   "Collection 2": {
     "Mode 1": {
       "alias-colour": {
-        "$value": "{VariableID:16:2}",
+        "$value": "#460eed",
         "$type": "color"
       }
     }
