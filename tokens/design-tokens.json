@@ -1,109 +1,115 @@
 {
-  "version": "1.0.2",
   "$schema": "https://design-tokens.w3.org/schemas/tokens.json",
   "$description": "Design tokens exported from Figma",
   "$extensions": {
     "com.figma": {
-      "exportedAt": "2025-11-26T08:12:36.589Z",
-      "version": "1.0.2"
+      "version": "2.0.0"
     }
   },
   "Collection 1": {
-    "Mode 1": {
-      "bye": {
-        "$value": "#ffffff",
+    "bye": {
+      "$value": "#ffffff",
+      "$type": "color"
+    },
+    "hi-var": {
+      "$value": "#460eed",
+      "$type": "color"
+    },
+    "sub-group": {
+      "sub-group-round": {
+        "$value": 16,
+        "$type": "dimension"
+      },
+      "sub-group-true": {
+        "$value": true,
+        "$type": "boolean"
+      },
+      "sub-group-grey": {
+        "$value": "#808080",
         "$type": "color"
       },
-      "hi-var": {
-        "$value": "#460eed",
-        "$type": "color"
-      },
-      "sub-group": {
-        "sub-group-round": {
-          "$value": 16,
-          "$type": "dimension"
-        },
-        "sub-group-true": {
-          "$value": true,
-          "$type": "boolean"
-        },
-        "sub-group-grey": {
-          "$value": "#808080",
-          "$type": "color"
-        },
-        "sub-group-string": {
-          "$value": "String value",
-          "$type": "string"
-        }
+      "sub-group-string": {
+        "$value": "String value",
+        "$type": "string"
       }
+    },
+    "alpha": {
+      "$value": "rgba(0, 0, 0, 0.5)",
+      "$type": "color"
     }
   },
   "tokens": {
-    "Mode 1": {
-      "actions": {
-        "primary-filled": {
-          "actions-primary-filled-text": {
-            "$value": "texting",
-            "$type": "string"
-          },
-          "actions-primary-filled-submit-btn": {
-            "$value": "submit",
-            "$type": "string"
-          },
-          "actions-primary-filled-fill": {
-            "$value": "{hi-var}",
-            "$type": "color"
-          }
+    "actions": {
+      "primary-filled": {
+        "actions-primary-filled-text": {
+          "$value": "texting",
+          "$type": "string"
         },
-        "secondary-outline": {
-          "actions-secondary-outline-text": {
-            "$value": "texting",
-            "$type": "string"
-          },
-          "actions-secondary-outline-submit-btn": {
-            "$value": "submit",
-            "$type": "string"
-          },
-          "actions-secondary-outline-fill": {
-            "$value": "{hi-var}",
-            "$type": "color"
-          }
+        "actions-primary-filled-submit-btn": {
+          "$value": "submit",
+          "$type": "string"
         },
-        "secondary-outline-2": {
-          "actions-secondary-outline-2-text": {
-            "$value": "texting",
-            "$type": "string"
-          },
-          "actions-secondary-outline-2-submit-btn": {
-            "$value": "submit",
-            "$type": "string"
-          },
-          "actions-secondary-outline-2-fill": {
-            "$value": "{hi-var}",
-            "$type": "color"
-          }
+        "actions-primary-filled-fill": {
+          "$value": "{hi-var}",
+          "$type": "color"
+        },
+        "actions-primary-filled-round": {
+          "$value": "{sub-group.sub-group-round}",
+          "$type": "dimension"
+        },
+        "actions-primary-filled-on": {
+          "$value": "{sub-group.sub-group-true}",
+          "$type": "boolean"
+        },
+        "actions-primary-filled-on-surface": {
+          "$value": "{alpha}",
+          "$type": "color"
+        }
+      },
+      "secondary-outline": {
+        "actions-secondary-outline-text": {
+          "$value": "texting",
+          "$type": "string"
+        },
+        "actions-secondary-outline-submit-btn": {
+          "$value": "submit",
+          "$type": "string"
+        },
+        "actions-secondary-outline-fill": {
+          "$value": "{hi-var}",
+          "$type": "color"
+        }
+      },
+      "secondary-outline-2": {
+        "actions-secondary-outline-2-text": {
+          "$value": "texting",
+          "$type": "string"
+        },
+        "actions-secondary-outline-2-submit-btn": {
+          "$value": "submit",
+          "$type": "string"
+        },
+        "actions-secondary-outline-2-fill": {
+          "$value": "{hi-var}",
+          "$type": "color"
         }
       }
     }
   },
   "other": {
-    "Mode 1": {
-      "true": {
-        "$value": true,
-        "$type": "boolean"
-      },
-      "false": {
-        "$value": false,
-        "$type": "boolean"
-      }
+    "true": {
+      "$value": true,
+      "$type": "boolean"
+    },
+    "false": {
+      "$value": false,
+      "$type": "boolean"
     }
   },
   "Collection 2": {
-    "Mode 1": {
-      "alias-colour": {
-        "$value": "{hi-var}",
-        "$type": "color"
-      }
+    "alias-colour": {
+      "$value": "{hi-var}",
+      "$type": "color"
     }
   },
   "Styles": {
