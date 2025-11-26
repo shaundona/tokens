@@ -1,11 +1,11 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.2",
   "$schema": "https://design-tokens.w3.org/schemas/tokens.json",
   "$description": "Design tokens exported from Figma",
   "$extensions": {
     "com.figma": {
-      "exportedAt": "2025-11-26T08:11:36.041Z",
-      "version": "1.0.0"
+      "exportedAt": "2025-11-26T08:12:36.589Z",
+      "version": "1.0.2"
     }
   },
   "Collection 1": {
