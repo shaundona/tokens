@@ -1,6 +1,6 @@
 {
-  "name": "design-tokens",
-  "version": "2.0.9",
+  "name": "TokenBridge",
+  "version": "2.0.10",
   "type": "module",
   "scripts": {
     "build": "node build-tokens.js"
