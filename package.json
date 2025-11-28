@@ -1,6 +1,6 @@
 {
   "name": "design-tokens",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "type": "module",
   "scripts": {
     "build": "node build-tokens.js"
