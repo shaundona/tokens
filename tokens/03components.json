@@ -1,0 +1,4806 @@
+{
+  "03.Components": {
+    "Alias": {
+      "button": {
+        "filled": {
+          "primary-filled": {
+            "text": {
+              "$value": "{colour.text.text-primary-action-filled}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill": {
+              "$value": "{colour.background.bg-primary-action-filled}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "stroke": {
+              "$value": "{colour.stroke.stroke-primary}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "padding-horizontal": {
+              "$value": "{layout.padding.lg}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "TEXT_CONTENT",
+                    "CORNER_RADIUS",
+                    "WIDTH_HEIGHT",
+                    "GAP",
+                    "STROKE_FLOAT",
+                    "EFFECT_FLOAT",
+                    "OPACITY",
+                    "FONT_VARIATIONS"
+                  ]
+                }
+              }
+            },
+            "padding-vertical": {
+              "$value": "{layout.padding.md}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "TEXT_CONTENT",
+                    "CORNER_RADIUS",
+                    "WIDTH_HEIGHT",
+                    "GAP",
+                    "STROKE_FLOAT",
+                    "EFFECT_FLOAT",
+                    "OPACITY",
+                    "FONT_VARIATIONS"
+                  ]
+                }
+              }
+            },
+            "text-focus": {
+              "$value": "{colour.text.text-focus}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill-focus": {
+              "$value": "{colour.background.bg-surface-focus}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "stroke-focus": {
+              "$value": "{colour.stroke.stroke-focus}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "rounded": {
+              "$value": "{elements.border-radius.x-lg}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "CORNER_RADIUS"
+                  ]
+                }
+              }
+            },
+            "stroke-width": {
+              "$value": "{elements.border-width.md}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "STROKE_FLOAT"
+                  ]
+                }
+              }
+            },
+            "stroke-hover": {
+              "$value": "{colour.ajb-brand-colour-01.800}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill-hover": {
+              "$value": "{colour.ajb-brand-colour-01.800}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "text-hover": {
+              "$value": "{colour.text.text-primary-action-filled}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "gap": {
+              "$value": "{layout.gap.md}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "icon": {
+              "$value": "{colour.text.text-primary-action-filled}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "icon-hover": {
+              "$value": "{colour.text.text-primary-action-filled}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "icon-focus": {
+              "$value": "{colour.text.text-focus}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "text-disabled": {
+              "$value": "{colour.text.text-inactive}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "icon-disabled": {
+              "$value": "{colour.text.text-inactive}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill-disabled": {
+              "$value": "{colour.background.bg-surface-inactive}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "stroke-disabled": {
+              "$value": "{colour.stroke.stroke-inactive}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            }
+          },
+          "secondary-filled": {
+            "text": {
+              "$value": "{colour.text.text-secondary-action-filled}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "icon": {
+              "$value": "{colour.text.text-secondary-action-filled}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill": {
+              "$value": "{colour.background.bg-secondary-action-filled}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "stroke": {
+              "$value": "{colour.stroke.stroke-secondary}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "text-hover": {
+              "$value": "{colour.text.text-secondary-action-filled}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "icon-hover": {
+              "$value": "{colour.text.text-secondary-action-filled}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill-hover": {
+              "$value": "{colour.ajb-brand-colour-02.900}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "stroke-hover": {
+              "$value": "{colour.ajb-brand-colour-02.900}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "text-focus": {
+              "$value": "{colour.text.text-focus}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "icon-focus": {
+              "$value": "{colour.text.text-focus}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill-focus": {
+              "$value": "{colour.background.bg-surface-focus}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "stroke-focus": {
+              "$value": "{colour.stroke.stroke-focus}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "padding-horizontal": {
+              "$value": "{layout.padding.lg}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "TEXT_CONTENT",
+                    "CORNER_RADIUS",
+                    "WIDTH_HEIGHT",
+                    "GAP",
+                    "STROKE_FLOAT",
+                    "EFFECT_FLOAT",
+                    "OPACITY"
+                  ]
+                }
+              }
+            },
+            "padding-vertical": {
+              "$value": "{layout.padding.md}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "TEXT_CONTENT",
+                    "CORNER_RADIUS",
+                    "WIDTH_HEIGHT",
+                    "GAP",
+                    "STROKE_FLOAT",
+                    "EFFECT_FLOAT",
+                    "OPACITY"
+                  ]
+                }
+              }
+            },
+            "rounded": {
+              "$value": "{elements.border-radius.x-lg}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "CORNER_RADIUS"
+                  ]
+                }
+              }
+            },
+            "stroke-width": {
+              "$value": "{elements.border-width.md}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "STROKE_FLOAT"
+                  ]
+                }
+              }
+            },
+            "gap": {
+              "$value": "{layout.gap.md}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "stroke-disabled": {
+              "$value": "{colour.stroke.stroke-inactive}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill-disabled": {
+              "$value": "{colour.background.bg-surface-inactive}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "icon-disabled": {
+              "$value": "{colour.text.text-inactive}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "text-disabled": {
+              "$value": "{colour.text.text-inactive}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            }
+          },
+          "primary-filled-icon": {
+            "icon": {
+              "$value": "{colour.text.text-primary-action-filled}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill": {
+              "$value": "{colour.background.bg-primary-action-filled}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "stroke": {
+              "$value": "{colour.stroke.stroke-primary}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "icon-hover": {
+              "$value": "{colour.text.text-primary-action-filled}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill-hover": {
+              "$value": "{colour.ajb-brand-colour-01.800}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "stroke-hover": {
+              "$value": "{colour.ajb-brand-colour-01.800}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "icon-focus": {
+              "$value": "{colour.text.text-focus}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill-focus": {
+              "$value": "{colour.background.bg-surface-focus}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "stroke-focus": {
+              "$value": "{colour.stroke.stroke-focus}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "padding-horizontal": {
+              "$value": "{layout.padding.md}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "TEXT_CONTENT",
+                    "CORNER_RADIUS",
+                    "WIDTH_HEIGHT",
+                    "GAP",
+                    "STROKE_FLOAT",
+                    "EFFECT_FLOAT",
+                    "OPACITY",
+                    "FONT_VARIATIONS"
+                  ]
+                }
+              }
+            },
+            "padding-vertical": {
+              "$value": "{layout.padding.md}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "TEXT_CONTENT",
+                    "CORNER_RADIUS",
+                    "WIDTH_HEIGHT",
+                    "GAP",
+                    "STROKE_FLOAT",
+                    "EFFECT_FLOAT",
+                    "OPACITY",
+                    "FONT_VARIATIONS"
+                  ]
+                }
+              }
+            },
+            "rounded": {
+              "$value": "{elements.border-radius.x-lg}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "CORNER_RADIUS"
+                  ]
+                }
+              }
+            },
+            "stroke-width": {
+              "$value": "{elements.border-width.md}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "STROKE_FLOAT"
+                  ]
+                }
+              }
+            },
+            "gap": {
+              "$value": "{layout.gap.md}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "GAP"
+                  ]
+                }
+              }
+            },
+            "stroke-disabled": {
+              "$value": "{colour.stroke.stroke-inactive}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill-disabled": {
+              "$value": "{colour.background.bg-surface-inactive}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "icon-disabled": {
+              "$value": "{colour.text.text-inactive}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            }
+          },
+          "secondary-filled-icon": {
+            "icon": {
+              "$value": "{colour.text.text-secondary-action-filled}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill": {
+              "$value": "{colour.background.bg-secondary-action-filled}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "stroke": {
+              "$value": "{colour.stroke.stroke-secondary}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "icon-hover": {
+              "$value": "{colour.text.text-secondary-action-filled}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill-hover": {
+              "$value": "{colour.ajb-brand-colour-02.900}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "stroke-hover": {
+              "$value": "{colour.ajb-brand-colour-02.900}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "icon-focus": {
+              "$value": "{colour.text.text-focus}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill-focus": {
+              "$value": "{colour.background.bg-surface-focus}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "stroke-focus": {
+              "$value": "{colour.stroke.stroke-focus}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "padding-horizontal": {
+              "$value": "{layout.padding.md}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "TEXT_CONTENT",
+                    "CORNER_RADIUS",
+                    "WIDTH_HEIGHT",
+                    "GAP",
+                    "STROKE_FLOAT",
+                    "EFFECT_FLOAT",
+                    "OPACITY"
+                  ]
+                }
+              }
+            },
+            "padding-vertical": {
+              "$value": "{layout.padding.md}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "TEXT_CONTENT",
+                    "CORNER_RADIUS",
+                    "WIDTH_HEIGHT",
+                    "GAP",
+                    "STROKE_FLOAT",
+                    "EFFECT_FLOAT",
+                    "OPACITY"
+                  ]
+                }
+              }
+            },
+            "rounded": {
+              "$value": "{elements.border-radius.x-lg}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "CORNER_RADIUS"
+                  ]
+                }
+              }
+            },
+            "stroke-width": {
+              "$value": "{elements.border-width.md}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "STROKE_FLOAT"
+                  ]
+                }
+              }
+            },
+            "gap": {
+              "$value": "{layout.gap.md}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "stroke-disabled": {
+              "$value": "{colour.stroke.stroke-inactive}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill-disabled": {
+              "$value": "{colour.background.bg-surface-inactive}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "icon-disabled": {
+              "$value": "{colour.text.text-inactive}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            }
+          },
+          "submit-filled": {
+            "text": {
+              "$value": "{colour.text.text-success-action-filled}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "icon": {
+              "$value": "{colour.text.text-success-action-filled}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill": {
+              "$value": "{colour.background.bg-success-action-filled}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "stroke": {
+              "$value": "{colour.stroke.stroke-success}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "text-hover": {
+              "$value": "{colour.text.text-success-action-filled}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "icon-hover": {
+              "$value": "{colour.text.text-success-action-filled}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill-hover": {
+              "$value": "{colour.system-confirmation.100}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "stroke-hover": {
+              "$value": "{colour.system-confirmation.100}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "text-focus": {
+              "$value": "{colour.text.text-focus}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "icon-focus": {
+              "$value": "{colour.text.text-focus}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill-focus": {
+              "$value": "{colour.background.bg-surface-focus}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "stroke-focus": {
+              "$value": "{colour.stroke.stroke-focus}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "text-disabled": {
+              "$value": "{colour.text.text-inactive}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "icon-disabled": {
+              "$value": "{colour.text.text-inactive}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill-disabled": {
+              "$value": "{colour.background.bg-surface-inactive}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "stroke-disabled": {
+              "$value": "{colour.stroke.stroke-inactive}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "padding-horizontal": {
+              "$value": "{layout.padding.lg}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "TEXT_CONTENT",
+                    "CORNER_RADIUS",
+                    "WIDTH_HEIGHT",
+                    "GAP",
+                    "STROKE_FLOAT",
+                    "EFFECT_FLOAT",
+                    "OPACITY",
+                    "FONT_VARIATIONS"
+                  ]
+                }
+              }
+            },
+            "padding-vertical": {
+              "$value": "{layout.padding.md}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "TEXT_CONTENT",
+                    "CORNER_RADIUS",
+                    "WIDTH_HEIGHT",
+                    "GAP",
+                    "STROKE_FLOAT",
+                    "EFFECT_FLOAT",
+                    "OPACITY",
+                    "FONT_VARIATIONS"
+                  ]
+                }
+              }
+            },
+            "rounded": {
+              "$value": "{elements.border-radius.x-lg}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "CORNER_RADIUS"
+                  ]
+                }
+              }
+            },
+            "stroke-width": {
+              "$value": "{elements.border-width.md}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "STROKE_FLOAT"
+                  ]
+                }
+              }
+            },
+            "gap": {
+              "$value": "{layout.gap.md}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            }
+          },
+          "link-filled": {
+            "text": {
+              "$value": "{colour.text.text-link}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "icon": {
+              "$value": "{colour.text.text-link}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill": {
+              "$value": "{colour.background.bg-surface-white}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "stroke": {
+              "$value": "{colour.system-surface.0}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "text-hover": {
+              "$value": "{colour.text.text-link-hover}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "icon-hover": {
+              "$value": "{colour.text.text-link-hover}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill-hover": {
+              "$value": "{colour.background.bg-surface-neutral-weak}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "stroke-hover": {
+              "$value": "{colour.system-surface.200}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "text-focus": {
+              "$value": "{colour.text.text-focus}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "icon-focus": {
+              "$value": "{colour.text.text-focus}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill-focus": {
+              "$value": "{colour.background.bg-surface-focus}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "stroke-focus": {
+              "$value": "{colour.stroke.stroke-focus}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "text-disabled": {
+              "$value": "{colour.text.text-inactive}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "icon-disabled": {
+              "$value": "{colour.text.text-inactive}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill-disabled": {
+              "$value": "{colour.background.bg-surface-inactive}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "stroke-disabled": {
+              "$value": "{colour.stroke.stroke-inactive}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "padding-horizontal": {
+              "$value": "{layout.padding.lg}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "TEXT_CONTENT",
+                    "CORNER_RADIUS",
+                    "WIDTH_HEIGHT",
+                    "GAP",
+                    "STROKE_FLOAT",
+                    "EFFECT_FLOAT",
+                    "OPACITY",
+                    "FONT_VARIATIONS"
+                  ]
+                }
+              }
+            },
+            "padding-vertical": {
+              "$value": "{layout.padding.md}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "TEXT_CONTENT",
+                    "CORNER_RADIUS",
+                    "WIDTH_HEIGHT",
+                    "GAP",
+                    "STROKE_FLOAT",
+                    "EFFECT_FLOAT",
+                    "OPACITY",
+                    "FONT_VARIATIONS"
+                  ]
+                }
+              }
+            },
+            "rounded": {
+              "$value": "{elements.border-radius.x-lg}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "CORNER_RADIUS"
+                  ]
+                }
+              }
+            },
+            "stroke-width": {
+              "$value": "{elements.border-width.md}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "STROKE_FLOAT"
+                  ]
+                }
+              }
+            },
+            "gap": {
+              "$value": "{layout.gap.md}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "outline": {
+          "primary-outline": {
+            "text": {
+              "$value": "{colour.text.text-primary-action-outline}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill": {
+              "$value": "{colour.background.bg-primary-action-outline}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "stroke": {
+              "$value": "{colour.stroke.stroke-primary}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "padding-horizontal": {
+              "$value": "{layout.padding.lg}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "TEXT_CONTENT",
+                    "CORNER_RADIUS",
+                    "WIDTH_HEIGHT",
+                    "GAP",
+                    "STROKE_FLOAT",
+                    "EFFECT_FLOAT",
+                    "OPACITY"
+                  ]
+                }
+              }
+            },
+            "padding-vertical": {
+              "$value": "{layout.padding.md}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "TEXT_CONTENT",
+                    "CORNER_RADIUS",
+                    "WIDTH_HEIGHT",
+                    "GAP",
+                    "STROKE_FLOAT",
+                    "EFFECT_FLOAT",
+                    "OPACITY"
+                  ]
+                }
+              }
+            },
+            "text-focus": {
+              "$value": "{colour.text.text-focus}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill-focus": {
+              "$value": "{colour.background.bg-surface-focus}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "stroke-focus": {
+              "$value": "{colour.stroke.stroke-focus}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "rounded": {
+              "$value": "{elements.border-radius.x-lg}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "CORNER_RADIUS"
+                  ]
+                }
+              }
+            },
+            "stroke-width": {
+              "$value": "{elements.border-width.md}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "STROKE_FLOAT"
+                  ]
+                }
+              }
+            },
+            "stroke-hover": {
+              "$value": "{colour.stroke.stroke-primary}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill-hover": {
+              "$value": "{colour.ajb-brand-colour-01.100}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "text-hover": {
+              "$value": "{colour.text.text-primary-action-outline}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "gap": {
+              "$value": "{layout.gap.md}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "icon": {
+              "$value": "{colour.text.text-primary-action-outline}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "icon-hover": {
+              "$value": "{colour.text.text-primary-action-outline}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "icon-focus": {
+              "$value": "{colour.text.text-focus}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "stroke-disabled": {
+              "$value": "{colour.stroke.stroke-inactive}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill-disabled": {
+              "$value": "{colour.background.bg-surface-inactive}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "icon-disabled": {
+              "$value": "{colour.text.text-inactive}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "text-disabled": {
+              "$value": "{colour.text.text-inactive}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            }
+          },
+          "secondary-outline": {
+            "text": {
+              "$value": "{colour.text.text-secondary-action-outline}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "icon": {
+              "$value": "{colour.text.text-secondary-action-outline}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill": {
+              "$value": "{colour.background.bg-secondary-action-outline}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "stroke": {
+              "$value": "{colour.stroke.stroke-secondary}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "text-hover": {
+              "$value": "{colour.text.text-secondary-action-outline}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "icon-hover": {
+              "$value": "{colour.text.text-secondary-action-outline}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill-hover": {
+              "$value": "{colour.ajb-brand-colour-02.100}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "stroke-hover": {
+              "$value": "{colour.stroke.stroke-secondary}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "text-focus": {
+              "$value": "{colour.text.text-focus}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "icon-focus": {
+              "$value": "{colour.text.text-focus}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill-focus": {
+              "$value": "{colour.background.bg-surface-focus}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "stroke-focus": {
+              "$value": "{colour.stroke.stroke-focus}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "padding-horizontal": {
+              "$value": "{layout.padding.lg}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "TEXT_CONTENT",
+                    "CORNER_RADIUS",
+                    "WIDTH_HEIGHT",
+                    "GAP",
+                    "STROKE_FLOAT",
+                    "EFFECT_FLOAT",
+                    "OPACITY"
+                  ]
+                }
+              }
+            },
+            "padding-vertical": {
+              "$value": "{layout.padding.md}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "TEXT_CONTENT",
+                    "CORNER_RADIUS",
+                    "WIDTH_HEIGHT",
+                    "GAP",
+                    "STROKE_FLOAT",
+                    "EFFECT_FLOAT",
+                    "OPACITY"
+                  ]
+                }
+              }
+            },
+            "rounded": {
+              "$value": "{elements.border-radius.x-lg}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "CORNER_RADIUS"
+                  ]
+                }
+              }
+            },
+            "stroke-width": {
+              "$value": "{elements.border-width.md}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "STROKE_FLOAT"
+                  ]
+                }
+              }
+            },
+            "gap": {
+              "$value": "{layout.gap.md}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "stroke-disabled": {
+              "$value": "{colour.stroke.stroke-inactive}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill-disabled": {
+              "$value": "{colour.background.bg-surface-inactive}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "icon-disabled": {
+              "$value": "{colour.text.text-inactive}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "text-disabled": {
+              "$value": "{colour.text.text-inactive}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            }
+          },
+          "primary-outline-icon": {
+            "icon": {
+              "$value": "{colour.text.text-primary-action-outline}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill": {
+              "$value": "{colour.background.bg-primary-action-outline}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "stroke": {
+              "$value": "{colour.stroke.stroke-primary}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "icon-hover": {
+              "$value": "{colour.text.text-primary-action-outline}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill-hover": {
+              "$value": "{colour.ajb-brand-colour-01.100}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "stroke-hover": {
+              "$value": "{colour.stroke.stroke-primary}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "icon-focus": {
+              "$value": "{colour.text.text-focus}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill-focus": {
+              "$value": "{colour.background.bg-surface-focus}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "stroke-focus": {
+              "$value": "{colour.stroke.stroke-focus}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "padding-horizontal": {
+              "$value": "{layout.padding.md}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "TEXT_CONTENT",
+                    "CORNER_RADIUS",
+                    "WIDTH_HEIGHT",
+                    "GAP",
+                    "STROKE_FLOAT",
+                    "EFFECT_FLOAT",
+                    "OPACITY"
+                  ]
+                }
+              }
+            },
+            "padding-vertical": {
+              "$value": "{layout.padding.md}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "TEXT_CONTENT",
+                    "CORNER_RADIUS",
+                    "WIDTH_HEIGHT",
+                    "GAP",
+                    "STROKE_FLOAT",
+                    "EFFECT_FLOAT",
+                    "OPACITY"
+                  ]
+                }
+              }
+            },
+            "rounded": {
+              "$value": "{elements.border-radius.x-lg}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "CORNER_RADIUS"
+                  ]
+                }
+              }
+            },
+            "stroke-width": {
+              "$value": "{elements.border-width.md}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "STROKE_FLOAT"
+                  ]
+                }
+              }
+            },
+            "gap": {
+              "$value": "{layout.gap.md}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "stroke-disabled": {
+              "$value": "{colour.stroke.stroke-inactive}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill-disabled": {
+              "$value": "{colour.background.bg-surface-inactive}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "icon-disabled": {
+              "$value": "{colour.text.text-inactive}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            }
+          },
+          "secondary-outline-icon": {
+            "icon": {
+              "$value": "{colour.text.text-secondary-action-outline}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill": {
+              "$value": "{colour.background.bg-secondary-action-outline}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "stroke": {
+              "$value": "{colour.stroke.stroke-secondary}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "icon-hover": {
+              "$value": "{colour.text.text-secondary-action-outline}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill-hover": {
+              "$value": "{colour.ajb-brand-colour-02.100}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "stroke-hover": {
+              "$value": "{colour.stroke.stroke-secondary}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "icon-focus": {
+              "$value": "{colour.text.text-focus}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill-focus": {
+              "$value": "{colour.background.bg-surface-focus}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "stroke-focus": {
+              "$value": "{colour.stroke.stroke-focus}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "padding-horizontal": {
+              "$value": "{layout.padding.md}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "TEXT_CONTENT",
+                    "CORNER_RADIUS",
+                    "WIDTH_HEIGHT",
+                    "GAP",
+                    "STROKE_FLOAT",
+                    "EFFECT_FLOAT",
+                    "OPACITY"
+                  ]
+                }
+              }
+            },
+            "padding-vertical": {
+              "$value": "{layout.padding.md}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "TEXT_CONTENT",
+                    "CORNER_RADIUS",
+                    "WIDTH_HEIGHT",
+                    "GAP",
+                    "STROKE_FLOAT",
+                    "EFFECT_FLOAT",
+                    "OPACITY"
+                  ]
+                }
+              }
+            },
+            "rounded": {
+              "$value": "{elements.border-radius.x-lg}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "CORNER_RADIUS"
+                  ]
+                }
+              }
+            },
+            "stroke-width": {
+              "$value": "{elements.border-width.md}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "STROKE_FLOAT"
+                  ]
+                }
+              }
+            },
+            "gap": {
+              "$value": "{layout.gap.md}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "stroke-disabled": {
+              "$value": "{colour.stroke.stroke-inactive}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "fill-disabled": {
+              "$value": "{colour.background.bg-surface-inactive}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "icon-disabled": {
+              "$value": "{colour.text.text-inactive}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      "forms": {
+        "input": {
+          "text-focus": {
+            "$value": "{colour.text.text-focus}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "stroke": {
+            "$value": "{colour.stroke.stroke-secondary}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "rounded": {
+            "$value": "{elements.border-radius.sm}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "CORNER_RADIUS"
+                ]
+              }
+            }
+          },
+          "padding-vertical": {
+            "$value": "{layout.padding.md}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "TEXT_CONTENT",
+                  "CORNER_RADIUS",
+                  "WIDTH_HEIGHT",
+                  "GAP",
+                  "STROKE_FLOAT",
+                  "EFFECT_FLOAT",
+                  "OPACITY"
+                ]
+              }
+            }
+          },
+          "icon-focus": {
+            "$value": "{colour.text.text-focus}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "padding-horizontal": {
+            "$value": "{layout.padding.lg}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "TEXT_CONTENT",
+                  "CORNER_RADIUS",
+                  "WIDTH_HEIGHT",
+                  "GAP",
+                  "STROKE_FLOAT",
+                  "EFFECT_FLOAT",
+                  "OPACITY"
+                ]
+              }
+            }
+          },
+          "fill-focus": {
+            "$value": "{colour.background.bg-surface-warning}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "icon-disabled": {
+            "$value": "{colour.text.text-inactive}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "stroke-focus": {
+            "$value": "{colour.stroke.stroke-warning}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "stroke-disabled": {
+            "$value": "{colour.stroke.stroke-inactive}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "fill-disabled": {
+            "$value": "{colour.background.bg-surface-inactive}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "gap": {
+            "$value": "{layout.gap.sm}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "text-disabled": {
+            "$value": "{colour.text.text-inactive}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "bg-input-surface": {
+            "$value": "{colour.background.bg-surface-white}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "stroke-width": {
+            "$value": "{elements.border-width.sm}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "STROKE_FLOAT"
+                ]
+              }
+            }
+          },
+          "icon": {
+            "$value": "{colour.text.text-subtle}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "label": {
+            "$value": "{colour.text.text-primary}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "hint": {
+            "$value": "{colour.text.text-subtle}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "icon-error": {
+            "$value": "{colour.text.text-error}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "fill-error": {
+            "$value": "{colour.background.bg-surface-error}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "stroke-error": {
+            "$value": "{colour.stroke.stroke-error}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "text-error": {
+            "$value": "{colour.text.text-error}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "input-min-width": {
+            "$value": "{layout.min-max.min-md}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "input-max-width": {
+            "$value": "{layout.min-max.max-md}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "text-active": {
+            "$value": "{colour.text.text-primary}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "text-input-padding": {
+            "$value": "{layout.padding.sm}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "TEXT_CONTENT",
+                  "CORNER_RADIUS",
+                  "WIDTH_HEIGHT",
+                  "GAP",
+                  "STROKE_FLOAT",
+                  "EFFECT_FLOAT",
+                  "OPACITY"
+                ]
+              }
+            }
+          },
+          "password-input": {
+            "text-active-letter-spacing": {
+              "$value": "{typography.letter-spacing.2}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            },
+            "text-active-font-size": {
+              "$value": "{typography.font-size.14}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            }
+          },
+          "tel-input": {
+            "tel-input-area-code-stroke": {
+              "$value": "{colour.stroke.stroke-default}",
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            }
+          },
+          "autocomplete-listbox": {
+            "gap": {
+              "$value": "{layout.gap.md}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            }
+          },
+          "textarea-input": {
+            "min-height": {
+              "$value": "{layout.min-max.min-sm}",
+              "$type": "dimension",
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "ALL_SCOPES"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "radio": {
+          "label": {
+            "$value": "{colour.text.text-primary}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "hint": {
+            "$value": "{colour.text.text-subtle}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "icon": {
+            "$value": "{colour.text.text-primary}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "bg-input-surface": {
+            "$value": "{colour.background.bg-surface-white}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "stroke": {
+            "$value": "{colour.stroke.stroke-secondary}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "text-focus": {
+            "$value": "{colour.text.text-focus}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "icon-error": {
+            "$value": "{colour.text.text-error}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "fill-error": {
+            "$value": "{colour.background.bg-surface-error}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "stroke-error": {
+            "$value": "{colour.stroke.stroke-error}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "text-error": {
+            "$value": "{colour.text.text-error}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "icon-focus": {
+            "$value": "{colour.text.text-focus}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "fill-focus": {
+            "$value": "{colour.background.bg-surface-warning}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "stroke-focus": {
+            "$value": "{colour.stroke.stroke-warning}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "text-disabled": {
+            "$value": "{colour.text.text-inactive}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "icon-disabled": {
+            "$value": "{colour.text.text-inactive}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "fill-disabled": {
+            "$value": "{colour.background.bg-surface-inactive}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "stroke-disabled": {
+            "$value": "{colour.stroke.stroke-inactive}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "rounded": {
+            "$value": "{elements.border-radius.sm}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "CORNER_RADIUS"
+                ]
+              }
+            }
+          },
+          "stroke-width": {
+            "$value": "{elements.border-width.sm}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "STROKE_FLOAT"
+                ]
+              }
+            }
+          },
+          "gap": {
+            "$value": "{layout.gap.sm}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "padding-horizontal": {
+            "$value": "{layout.padding.lg}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "TEXT_CONTENT",
+                  "CORNER_RADIUS",
+                  "WIDTH_HEIGHT",
+                  "GAP",
+                  "STROKE_FLOAT",
+                  "EFFECT_FLOAT",
+                  "OPACITY"
+                ]
+              }
+            }
+          },
+          "padding-vertical": {
+            "$value": "{layout.padding.md}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "TEXT_CONTENT",
+                  "CORNER_RADIUS",
+                  "WIDTH_HEIGHT",
+                  "GAP",
+                  "STROKE_FLOAT",
+                  "EFFECT_FLOAT",
+                  "OPACITY"
+                ]
+              }
+            }
+          },
+          "input-min-width": {
+            "$value": "{layout.min-max.min-md}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "input-max-width": {
+            "$value": "{layout.min-max.max-lg}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          }
+        },
+        "checkbox": {
+          "label": {
+            "$value": "{colour.text.text-primary}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "hint": {
+            "$value": "{colour.text.text-subtle}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "icon": {
+            "$value": "{colour.text.text-primary}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "bg-input-surface": {
+            "$value": "{colour.background.bg-surface-white}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "stroke": {
+            "$value": "{colour.stroke.stroke-secondary}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "text-focus": {
+            "$value": "{colour.text.text-focus}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "icon-error": {
+            "$value": "{colour.text.text-error}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "fill-error": {
+            "$value": "{colour.background.bg-surface-error}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "stroke-error": {
+            "$value": "{colour.stroke.stroke-error}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "text-error": {
+            "$value": "{colour.text.text-error}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "icon-focus": {
+            "$value": "{colour.text.text-focus}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "fill-focus": {
+            "$value": "{colour.background.bg-surface-warning}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "stroke-focus": {
+            "$value": "{colour.stroke.stroke-warning}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "text-disabled": {
+            "$value": "{colour.text.text-inactive}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "icon-disabled": {
+            "$value": "{colour.text.text-inactive}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "fill-disabled": {
+            "$value": "{colour.background.bg-surface-inactive}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "stroke-disabled": {
+            "$value": "{colour.stroke.stroke-inactive}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "rounded": {
+            "$value": "{elements.border-radius.sm}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "CORNER_RADIUS"
+                ]
+              }
+            }
+          },
+          "stroke-width": {
+            "$value": "{elements.border-width.sm}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "STROKE_FLOAT"
+                ]
+              }
+            }
+          },
+          "gap": {
+            "$value": "{layout.gap.sm}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "padding-horizontal": {
+            "$value": "{layout.padding.lg}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "TEXT_CONTENT",
+                  "CORNER_RADIUS",
+                  "WIDTH_HEIGHT",
+                  "GAP",
+                  "STROKE_FLOAT",
+                  "EFFECT_FLOAT",
+                  "OPACITY"
+                ]
+              }
+            }
+          },
+          "padding-vertical": {
+            "$value": "{layout.padding.md}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "TEXT_CONTENT",
+                  "CORNER_RADIUS",
+                  "WIDTH_HEIGHT",
+                  "GAP",
+                  "STROKE_FLOAT",
+                  "EFFECT_FLOAT",
+                  "OPACITY"
+                ]
+              }
+            }
+          },
+          "input-min-width": {
+            "$value": "{layout.min-max.min-md}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "input-max-width": {
+            "$value": "{layout.min-max.max-lg}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "menu": {
+        "sidebar": {
+          "icon-focus": {
+            "$value": "{colour.text.text-focus}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "text-focus": {
+            "$value": "{colour.text.text-focus}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "fill-hover": {
+            "$value": "{colour.background.bg-surface-neutral-weakest}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "text-hover": {
+            "$value": "{colour.text.text-accent}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "gap": {
+            "$value": "{layout.gap.sm}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "icon-hover": {
+            "$value": "{colour.text.text-accent}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "fill": {
+            "$value": "{colour.background.bg-surface-white}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "padding-horizontal": {
+            "$value": "{layout.padding.lg}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "TEXT_CONTENT",
+                  "CORNER_RADIUS",
+                  "WIDTH_HEIGHT",
+                  "GAP",
+                  "STROKE_FLOAT",
+                  "EFFECT_FLOAT",
+                  "OPACITY",
+                  "FONT_VARIATIONS"
+                ]
+              }
+            }
+          },
+          "stroke": {
+            "$value": "{colour.stroke.stroke-white}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "padding-vertical": {
+            "$value": "{layout.padding.md}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "TEXT_CONTENT",
+                  "CORNER_RADIUS",
+                  "WIDTH_HEIGHT",
+                  "GAP",
+                  "STROKE_FLOAT",
+                  "EFFECT_FLOAT",
+                  "OPACITY",
+                  "FONT_VARIATIONS"
+                ]
+              }
+            }
+          },
+          "stroke-disabled": {
+            "$value": "{colour.stroke.stroke-inactive}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "icon-disabled": {
+            "$value": "{colour.text.text-inactive}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "fill-disabled": {
+            "$value": "{colour.background.bg-surface-inactive}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "stroke-focus": {
+            "$value": "{colour.stroke.stroke-focus}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "fill-focus": {
+            "$value": "{colour.background.bg-surface-focus}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "text-disabled": {
+            "$value": "{colour.text.text-inactive}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "stroke-hover": {
+            "$value": "{colour.stroke.stroke-white}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "stroke-width": {
+            "$value": "{elements.border-width.md}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "STROKE_FLOAT"
+                ]
+              }
+            }
+          },
+          "icon": {
+            "$value": "{colour.text.text-subtle}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "rounded": {
+            "$value": "{elements.border-radius.none}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "CORNER_RADIUS"
+                ]
+              }
+            }
+          },
+          "text": {
+            "$value": "{colour.text.text-primary}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "text-active": {
+            "$value": "{colour.text.text-accent}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "icon-active": {
+            "$value": "{colour.text.text-accent}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "fill-active": {
+            "$value": "{colour.background.bg-surface-accent}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "stroke-active": {
+            "$value": "{colour.stroke.stroke-primary}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "menu-item-max-width": {
+            "$value": "{layout.min-max.max-md}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "menu-item-min-width": {
+            "$value": "{layout.min-max.min-sm}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "divider": {
+            "$value": "{colour.stroke.stroke-divider}",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            }
+          },
+          "divider-width": {
+            "$value": "{elements.border-width.x-sm}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "STROKE_FLOAT"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "card": {
+        "card-min-width": {
+          "$value": "{layout.min-max.min-md}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "card-max-width": {
+          "$value": "{layout.min-max.max-lg}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "rounded": {
+          "$value": "{elements.border-radius.md}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "CORNER_RADIUS"
+              ]
+            }
+          }
+        },
+        "gap": {
+          "$value": "{layout.gap.md}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "padding-vertical": {
+          "$value": "{layout.padding.lg}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "TEXT_CONTENT",
+                "CORNER_RADIUS",
+                "WIDTH_HEIGHT",
+                "GAP",
+                "STROKE_FLOAT",
+                "EFFECT_FLOAT",
+                "OPACITY",
+                "FONT_VARIATIONS"
+              ]
+            }
+          }
+        },
+        "padding-horizontal": {
+          "$value": "{layout.padding.lg}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "TEXT_CONTENT",
+                "CORNER_RADIUS",
+                "WIDTH_HEIGHT",
+                "GAP",
+                "STROKE_FLOAT",
+                "EFFECT_FLOAT",
+                "OPACITY",
+                "FONT_VARIATIONS"
+              ]
+            }
+          }
+        },
+        "fill": {
+          "$value": "{colour.background.bg-surface-white}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "stroke": {
+          "$value": "{colour.stroke.stroke-white}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "stroke-width": {
+          "$value": "{elements.border-width.sm}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "STROKE_FLOAT"
+              ]
+            }
+          }
+        }
+      },
+      "modal": {
+        "fill": {
+          "$value": "{colour.background.bg-surface-white}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "stroke": {
+          "$value": "{colour.stroke.stroke-white}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "stroke-width": {
+          "$value": "{elements.border-width.sm}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "STROKE_FLOAT"
+              ]
+            }
+          }
+        },
+        "padding-horizontal": {
+          "$value": "{layout.padding.lg}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "TEXT_CONTENT",
+                "CORNER_RADIUS",
+                "WIDTH_HEIGHT",
+                "GAP",
+                "STROKE_FLOAT",
+                "EFFECT_FLOAT",
+                "OPACITY",
+                "FONT_VARIATIONS"
+              ]
+            }
+          }
+        },
+        "padding-vertical": {
+          "$value": "{layout.padding.lg}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "TEXT_CONTENT",
+                "CORNER_RADIUS",
+                "WIDTH_HEIGHT",
+                "GAP",
+                "STROKE_FLOAT",
+                "EFFECT_FLOAT",
+                "OPACITY",
+                "FONT_VARIATIONS"
+              ]
+            }
+          }
+        },
+        "rounded": {
+          "$value": "{elements.border-radius.md}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "CORNER_RADIUS"
+              ]
+            }
+          }
+        },
+        "gap": {
+          "$value": "{layout.gap.md}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "modal-min-width": {
+          "$value": "{layout.min-max.min-md}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "modal-max-width": {
+          "$value": "{layout.min-max.max-lg}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "overlay-bg-fill": {
+          "$value": "{colour.background.bg-overlay}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        }
+      },
+      "tooltip": {
+        "fill": {
+          "$value": "{colour.background.bg-surface-neutral-strongest}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "padding-horizontal": {
+          "$value": "{layout.padding.lg}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "TEXT_CONTENT",
+                "CORNER_RADIUS",
+                "WIDTH_HEIGHT",
+                "GAP",
+                "STROKE_FLOAT",
+                "EFFECT_FLOAT",
+                "OPACITY",
+                "FONT_VARIATIONS"
+              ]
+            }
+          }
+        },
+        "padding-vertical": {
+          "$value": "{layout.padding.lg}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "TEXT_CONTENT",
+                "CORNER_RADIUS",
+                "WIDTH_HEIGHT",
+                "GAP",
+                "STROKE_FLOAT",
+                "EFFECT_FLOAT",
+                "OPACITY",
+                "FONT_VARIATIONS"
+              ]
+            }
+          }
+        },
+        "rounded": {
+          "$value": "{elements.border-radius.md}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "CORNER_RADIUS"
+              ]
+            }
+          }
+        },
+        "gap": {
+          "$value": "{layout.gap.md}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "tooltip-min-width": {
+          "$value": "{layout.min-max.min-md}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "tooltip-max-width": {
+          "$value": "{layout.min-max.max-md}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "text": {
+          "$value": "{colour.text.text-on-surface}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "icon": {
+          "$value": "{colour.text.text-on-surface}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "indictator": {
+          "$value": "{colour.background.bg-surface-neutral-strongest}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        }
+      },
+      "accordion": {
+        "text": {
+          "$value": "{colour.text.text-primary}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "icon": {
+          "$value": "{colour.text.text-primary}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "fill": {
+          "$value": "{colour.background.bg-surface-white}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "stroke": {
+          "$value": "{colour.stroke.stroke-secondary}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "text-focus": {
+          "$value": "{colour.text.text-focus}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "icon-focus": {
+          "$value": "{colour.text.text-focus}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "fill-focus": {
+          "$value": "{colour.background.bg-surface-white}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "stroke-focus": {
+          "$value": "{colour.stroke.stroke-warning}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "rounded": {
+          "$value": "{elements.border-radius.sm}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "CORNER_RADIUS"
+              ]
+            }
+          }
+        },
+        "stroke-width": {
+          "$value": "{elements.border-width.sm}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "STROKE_FLOAT"
+              ]
+            }
+          }
+        },
+        "gap": {
+          "$value": "{layout.gap.sm}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "padding-horizontal": {
+          "$value": "{layout.padding.lg}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "TEXT_CONTENT",
+                "CORNER_RADIUS",
+                "WIDTH_HEIGHT",
+                "GAP",
+                "STROKE_FLOAT",
+                "EFFECT_FLOAT",
+                "OPACITY"
+              ]
+            }
+          }
+        },
+        "padding-vertical": {
+          "$value": "{layout.padding.md}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "TEXT_CONTENT",
+                "CORNER_RADIUS",
+                "WIDTH_HEIGHT",
+                "GAP",
+                "STROKE_FLOAT",
+                "EFFECT_FLOAT",
+                "OPACITY"
+              ]
+            }
+          }
+        },
+        "accordion-min-width": {
+          "$value": "{layout.min-max.min-md}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "accordion-max-width": {
+          "$value": "{layout.min-max.max-lg}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        }
+      },
+      "tabs": {
+        "text": {
+          "$value": "{colour.text.text-primary}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "icon": {
+          "$value": "{colour.text.text-subtle}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "fill": {
+          "$value": "{colour.background.bg-surface-white}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "stroke": {
+          "$value": "{colour.stroke.stroke-default}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "text-hover": {
+          "$value": "{colour.text.text-accent}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "icon-hover": {
+          "$value": "{colour.text.text-accent}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "fill-hover": {
+          "$value": "{colour.background.bg-surface-neutral-weakest}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "stroke-hover": {
+          "$value": "{colour.stroke.stroke-white}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "text-active": {
+          "$value": "{colour.text.text-accent}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "icon-active": {
+          "$value": "{colour.text.text-accent}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "fill-active": {
+          "$value": "{colour.background.bg-surface-accent}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "stroke-active": {
+          "$value": "{colour.stroke.stroke-primary}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "text-focus": {
+          "$value": "{colour.text.text-focus}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "icon-focus": {
+          "$value": "{colour.text.text-focus}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "fill-focus": {
+          "$value": "{colour.background.bg-surface-focus}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "stroke-focus": {
+          "$value": "{colour.stroke.stroke-focus}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "text-disabled": {
+          "$value": "{colour.text.text-inactive}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "icon-disabled": {
+          "$value": "{colour.text.text-inactive}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "fill-disabled": {
+          "$value": "{colour.background.bg-surface-inactive}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "stroke-disabled": {
+          "$value": "{colour.stroke.stroke-inactive}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "padding-horizontal": {
+          "$value": "{layout.padding.lg}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "TEXT_CONTENT",
+                "CORNER_RADIUS",
+                "WIDTH_HEIGHT",
+                "GAP",
+                "STROKE_FLOAT",
+                "EFFECT_FLOAT",
+                "OPACITY",
+                "FONT_VARIATIONS"
+              ]
+            }
+          }
+        },
+        "padding-vertical": {
+          "$value": "{layout.padding.lg}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "TEXT_CONTENT",
+                "CORNER_RADIUS",
+                "WIDTH_HEIGHT",
+                "GAP",
+                "STROKE_FLOAT",
+                "EFFECT_FLOAT",
+                "OPACITY",
+                "FONT_VARIATIONS"
+              ]
+            }
+          }
+        },
+        "rounded": {
+          "$value": "{elements.border-radius.md}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "CORNER_RADIUS"
+              ]
+            }
+          }
+        },
+        "stroke-width": {
+          "$value": "{elements.border-width.md}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "STROKE_FLOAT"
+              ]
+            }
+          }
+        },
+        "gap": {
+          "$value": "{layout.gap.sm}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "tab-min-width": {
+          "$value": "{layout.min-max.min-md}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "tab-max-width": {
+          "$value": "{layout.min-max.max-lg}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        }
+      },
+      "table": {
+        "text": {
+          "$value": "{colour.text.text-primary}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "fill": {
+          "$value": "{colour.background.bg-surface-white}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "stroke": {
+          "$value": "{colour.stroke.stroke-default}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "padding-horizontal": {
+          "$value": "{layout.padding.md}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "TEXT_CONTENT",
+                "CORNER_RADIUS",
+                "WIDTH_HEIGHT",
+                "GAP",
+                "STROKE_FLOAT",
+                "EFFECT_FLOAT",
+                "OPACITY",
+                "FONT_VARIATIONS"
+              ]
+            }
+          }
+        },
+        "padding-vertical": {
+          "$value": "{layout.padding.lg}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "TEXT_CONTENT",
+                "CORNER_RADIUS",
+                "WIDTH_HEIGHT",
+                "GAP",
+                "STROKE_FLOAT",
+                "EFFECT_FLOAT",
+                "OPACITY",
+                "FONT_VARIATIONS"
+              ]
+            }
+          }
+        },
+        "stroke-width": {
+          "$value": "{elements.border-width.x-sm}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "STROKE_FLOAT"
+              ]
+            }
+          }
+        },
+        "cell-min-width": {
+          "$value": "{layout.min-max.min-sm}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "cell-max-width": {
+          "$value": "{layout.min-max.max-md}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "icon": {
+          "$value": "{colour.text.text-subtle}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "gap": {
+          "$value": "{layout.gap.sm}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "th-stroke-width": {
+          "$value": "{elements.border-width.sm}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "STROKE_FLOAT"
+              ]
+            }
+          }
+        }
+      },
+      "banner": {
+        "text": {
+          "$value": "{colour.text.text-primary}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "fill-accent": {
+          "$value": "{colour.background.bg-surface-accent}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "gap": {
+          "$value": "{layout.gap.lg}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "padding-horizontal": {
+          "$value": "{layout.padding.md}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "TEXT_CONTENT",
+                "CORNER_RADIUS",
+                "WIDTH_HEIGHT",
+                "GAP",
+                "STROKE_FLOAT",
+                "EFFECT_FLOAT",
+                "OPACITY",
+                "FONT_VARIATIONS"
+              ]
+            }
+          }
+        },
+        "padding-vertical": {
+          "$value": "{layout.padding.lg}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "TEXT_CONTENT",
+                "CORNER_RADIUS",
+                "WIDTH_HEIGHT",
+                "GAP",
+                "STROKE_FLOAT",
+                "EFFECT_FLOAT",
+                "OPACITY",
+                "FONT_VARIATIONS"
+              ]
+            }
+          }
+        },
+        "banner-min-width": {
+          "$value": "{layout.min-max.min-md}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "banner-max-width": {
+          "$value": "{layout.min-max.max-lg}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "rounded": {
+          "$value": "{elements.border-radius.md}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "fill": {
+          "$value": "{colour.background.bg-surface-neutral-weak}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "text-accent": {
+          "$value": "{colour.text.text-on-brand-accent}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        }
+      },
+      "hero": {
+        "text": {
+          "$value": "{colour.text.text-on-surface}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "fill": {
+          "$value": "{colour.background.bg-surface-primary}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "gap": {
+          "$value": "{layout.gap.lg}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "rounded": {
+          "$value": "{elements.border-radius.none}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "padding-horizontal": {
+          "$value": "{layout.padding.x-lg}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "TEXT_CONTENT",
+                "CORNER_RADIUS",
+                "WIDTH_HEIGHT",
+                "GAP",
+                "STROKE_FLOAT",
+                "EFFECT_FLOAT",
+                "OPACITY",
+                "FONT_VARIATIONS"
+              ]
+            }
+          }
+        },
+        "padding-vertical": {
+          "$value": "{layout.padding.lg}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "TEXT_CONTENT",
+                "CORNER_RADIUS",
+                "WIDTH_HEIGHT",
+                "GAP",
+                "STROKE_FLOAT",
+                "EFFECT_FLOAT",
+                "OPACITY",
+                "FONT_VARIATIONS"
+              ]
+            }
+          }
+        },
+        "hero-min-width": {
+          "$value": "{layout.frame.frame-mobile}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "hero-max-width": {
+          "$value": "{layout.frame.frame-desktop4k}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "content-min-width": {
+          "$value": "{layout.min-max.min-md}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        },
+        "content-max-width": {
+          "$value": "{layout.min-max.max-lg}",
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
