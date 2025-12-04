@@ -1,6 +1,6 @@
 # TokenBridge - Design tokens export
 
-Generated design tokens for: **Web, Flutter, iOS, Android**
+Generated design tokens for: **Web, Flutter**
 
 ## 📦 Installation
 
@@ -26,11 +26,9 @@ build/
 │   ├── theme-light.css
 │   └── theme-dark.css
 ├── flutter/
-│   └── apptokens.dart
-├── ios/
-│   └── DesignTokens.swift
-└── android/
-    └── Tokens.kt
+│   ├── primitives.dart
+│   ├── semantics.dart
+│   └── components.dart
 ```
 
 ---
