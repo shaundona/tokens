@@ -1,0 +1,30 @@
+{
+  "source": [
+    "tokens/external-02-semantics.json",
+    "tokens/01-primitives.json",
+    "tokens/02-semantics.json",
+    "tokens/03-components.json"
+  ],
+  "platforms": {
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "build/css/",
+      "files": [
+        {
+          "destination": "_variables.css",
+          "format": "css/variables"
+        }
+      ]
+    },
+    "scss": {
+      "transformGroup": "scss",
+      "buildPath": "build/scss/",
+      "files": [
+        {
+          "destination": "_variables.scss",
+          "format": "scss/variables"
+        }
+      ]
+    }
+  }
+}
