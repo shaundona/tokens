@@ -1949,12 +1949,34 @@
     },
     "difftest": {
       "test": {
-        "value": 123456,
+        "value": 3,
         "type": "dimension",
         "extensions": {
           "com.figma": {
             "scopes": [
               "WIDTH_HEIGHT"
+            ]
+          }
+        }
+      },
+      "anothertest": {
+        "value": 0,
+        "type": "dimension",
+        "extensions": {
+          "com.figma": {
+            "scopes": [
+              "ALL_SCOPES"
+            ]
+          }
+        }
+      },
+      "extratest": {
+        "value": 1,
+        "type": "dimension",
+        "extensions": {
+          "com.figma": {
+            "scopes": [
+              "ALL_SCOPES"
             ]
           }
         }
